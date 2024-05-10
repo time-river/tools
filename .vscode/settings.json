@@ -1,0 +1,15 @@
+{
+  // Enable ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  // use stylistic instead of prettier to prevent conflict
+  "prettier.enable": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.configFile": "tailwind.config.js"
+}
