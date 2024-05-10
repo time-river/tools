@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/content',
   ],
+  extends: ['@nuxt/ui-pro'],
   eslint: {
     checker: true,
     config: {

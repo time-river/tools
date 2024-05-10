@@ -1144,6 +1144,22 @@
     rc9 "^2.1.2"
     std-env "^3.7.0"
 
+"@nuxt/ui-pro@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/ui-pro/-/ui-pro-1.2.0.tgz#012b4385dd4a9f6798ee3c0aff43f38901f04c97"
+  integrity sha512-lWcCijOqf/5xqjK2vN3e828fzxvun2JgFRgc4q+iG6hn/L2WRvuBAikV4KuAe4NjQGz3J8xT2XzWqs7vitisCw==
+  dependencies:
+    "@nuxt/ui" "^2.16.0"
+    "@vueuse/core" "^10.9.0"
+    defu "^6.1.4"
+    git-url-parse "^14.0.0"
+    ofetch "^1.3.4"
+    parse-git-config "^3.0.0"
+    pathe "^1.1.2"
+    pkg-types "^1.1.0"
+    tailwind-merge "^2.3.0"
+    vue3-smooth-dnd "^0.0.6"
+
 "@nuxt/ui-templates@^1.3.2":
   version "1.3.3"
   resolved "https://registry.npmjs.org/@nuxt/ui-templates/-/ui-templates-1.3.3.tgz"
@@ -7690,6 +7706,11 @@ smob@^1.0.0:
   resolved "https://registry.npmjs.org/smob/-/smob-1.5.0.tgz"
   integrity sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==
 
+smooth-dnd@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/smooth-dnd/-/smooth-dnd-0.12.1.tgz#cdb44c972355659e32770368b29b6a80e0ed96f1"
+  integrity sha512-Dndj/MOG7VP83mvzfGCLGzV2HuK1lWachMtWl/Iuk6zV7noDycIBnflwaPuDzoaapEl3Pc4+ybJArkkx9sxPZg==
+
 socket.io-client@^4.7.4:
   version "4.7.5"
   resolved "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.7.5.tgz"
@@ -8771,6 +8792,13 @@ vue-virtual-scroller@2.0.0-beta.8:
     mitt "^2.1.0"
     vue-observe-visibility "^2.0.0-alpha.1"
     vue-resize "^2.0.0-alpha.1"
+
+vue3-smooth-dnd@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/vue3-smooth-dnd/-/vue3-smooth-dnd-0.0.6.tgz#7a41f8625345aa0a6cc167d3cbf8c29baf276b4d"
+  integrity sha512-CH9ZZhEfE7qU1ef2rlfgBG+nZtQX8PnWlspB2HDDz1uVGU7fXM0Pr65DftBMz4X81S+edw2H+ZFG6Dyb5J81KA==
+  dependencies:
+    smooth-dnd "^0.12.1"
 
 vue@^3.4.21, vue@^3.4.27:
   version "3.4.27"
